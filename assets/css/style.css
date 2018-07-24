@@ -280,3 +280,9 @@ footer {
 	max-height: 50px;
 	max-width: 50px;
 }
+
+@media (max-width: 575.98px) { 
+	#aboutol {
+ 	padding-left: 25px;
+ }
+}
