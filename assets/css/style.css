@@ -103,6 +103,7 @@ a, a:hover {
 }
 
 .website, .website-details {
+	padding-left: 10px;
 	color: #000;
 }
 
@@ -287,9 +288,9 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: left;
 }
 
-#port {
-	text-align: center;
-}
+	#port {
+		text-align: center;
+	}
 
 	#aboutol {
  	padding-left: 25px;
