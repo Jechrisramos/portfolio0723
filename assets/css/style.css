@@ -1,0 +1,282 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+	background-color: #B7B7B7;
+}
+@font-face {
+    font-family:Lemonmilk;
+    src: url(../fontcollection/LemonMilk.otf);
+}
+
+@font-face	{
+	font-family:laneposh;
+	src: url(../fontcollection/LANEPOSH.ttf);
+}
+
+@font-face	{
+	font-family:chunky;
+	src: url(../fontcollection/ChunkfiveEx.ttf);
+}
+
+@font-face	{
+	font-family:roboto;
+	src: url(../fontcollection/Roboto.ttf);
+}
+
+
+
+body {
+	max-width: 800px;
+	background-color: #fff;
+	height: auto;
+	overflow-x: hidden;
+	margin: auto;
+	font-family: roboto;
+	text-align: justify;
+	/*background-color: #f2ecd7;*/ /*eggshell*/
+	/*color: #3c3744; /*onyx*/
+}
+
+
+ h1, h2, h3, h4, h5, h6 {
+	font-family:Lemonmilk;
+	/*color: #a24936; /*chestnut*/
+}
+
+nav	{
+	margin-top: 15px;
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+#logo {
+	max-width: 30px;
+	max-height: 30px;
+}
+
+.intro-1 {
+	padding-left: 15px;
+	text-align: center;
+	margin: 0;
+}
+
+#port {
+	font-family: laneposh;
+	font-size: 2em;
+	letter-spacing: 2px;
+}
+
+.intro-1 {
+	margin-top: 5px;
+}
+
+#extra {
+	text-align: center;
+}
+
+.inner-row {
+	margin-top: 25px;
+}
+
+.intro-1, .intro-2 {
+	max-height: 700px;
+	width: auto;
+	margin: auto 0;
+} 
+
+.intro-2 {
+	font-size: 1.8em;
+	padding-top: 50px;
+	padding-left: 30px; 
+	padding-right:  30px;
+	line-height: 2em;
+	font-weight: bold;
+}
+
+.website, .website-details {
+	color: black;
+}
+
+.website:hover {
+	color: red;
+}
+
+#intro {
+	width: 100%;
+	background-color: #000 /*#3c3744*/;
+	color: #fff /*#f2ecd7*/;
+	padding: 5px;
+	padding-right: 10px;
+	margin-bottom: 30px;
+	text-align: right;
+}
+
+.bg-dark, #proj-title, #abt-title {
+	width: 100%;
+	background-color: #000 /*#3c3744*/;
+	color: #fff /*#f2ecd7*/;
+	padding: 5px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.nav-item {
+	background-color: #000 /*#3c3744*/;
+	color: #fff /*#f2ecd7*/;
+	font-size: 1.2em;
+	letter-spacing: 5px;
+}
+
+.nav-link:hover, #port:hover, .jcon {
+	color: Red;
+}
+
+.intro-3 {
+	width: 100%;
+	margin-bottom: 50px;
+	padding-top: 250px; /*for phones 200px fortabletslandscape*/
+	padding-left: 60px;
+	padding-right: 60px; /*for phones 60px left & right fortabletslandscape 60px left &right*/
+	/*padding: 250px 30px 100px 250px;*/
+	font-size: 1.3em;
+}
+
+.jcon {
+	margin-top: 20px;
+	height: 150px;
+	width: 150px;
+}
+
+#proj-title {
+	padding-left: 15px;
+	text-align: left;
+}
+
+.proj-row, .about-row {
+	margin-top: 125px;
+}
+
+.img-grap {
+	max-width: 300px;
+	height: auto;
+	padding: 25px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-grap-ls {
+	width: 100%;
+	padding: 25px;
+	margin-bottom: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.accordion {
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 auto;
+    border: none;
+    transition: 0.4s;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: center;
+}
+
+#design	{
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	margin-top: 20px;
+	padding: 30px 10px 10px 10px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+#design:hover, #proj-title:hover {
+	color: red;
+}
+
+.mono {
+	font-family: laneposh;
+	text-align: right;
+}
+
+.question { 
+	margin-left: 25px;
+	padding-left: 25px;
+ }
+
+ #aboutol {
+ 	padding-left: 125px;
+ }
+
+ .ans {
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+ 	line-height: 1.8em;
+ 	color: grey;
+ }
+
+#qou {
+	font-weight: bold;
+}
+
+.clear {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.additional, .logue {
+	padding: 50px;
+	line-height: 2.5em;
+}
+
+#block {
+	padding-top: 50px;
+}
+
+.fas {
+	color: #fff;
+}
+
+#avatar {
+	max-width:250px; 
+	filter: grayscale(75%);
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding-top: 15px; 
+}
+
+#img-footer {
+	max-height: 50px;
+	max-width: 50px;
+}
